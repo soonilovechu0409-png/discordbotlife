@@ -36,7 +36,8 @@ async def 타임아웃해제(ctx, member: discord.Member):
     await member.timeout(None)
     await ctx.send(f"✅ {member.mention} 님의 타임아웃을 해제했어요.")
 
-bot.run("MTQ1OTA1NDg4NDM1MDQ2MDAxNg.GNhDOD.95gPmB5mx7K5AETtSb2riAXcqBqGTGYhB5ip6U")
+bot.run("TOKEN")
 
 import os
 bot.run(os.getenv("MTQ1OTA1NDg4NDM1MDQ2MDAxNg.GNhDOD.95gPmB5mx7K5AETtSb2riAXcqBqGTGYhB5ip6U")
+
