@@ -39,5 +39,6 @@ async def 타임아웃해제(ctx, member: discord.Member):
 bot.run("TOKEN")
 
 import os
-bot.run(os.getenv("MTQ1OTA1NDg4NDM1MDQ2MDAxNg.GNhDOD.95gPmB5mx7K5AETtSb2riAXcqBqGTGYhB5ip6U")
+bot.run(os.getenv("TOKEN")
+
 
